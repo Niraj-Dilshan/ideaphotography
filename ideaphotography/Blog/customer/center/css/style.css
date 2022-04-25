@@ -1,0 +1,48 @@
+
+.bg-dark{
+    background-color:#343a40!important
+}
+.bg-primary{
+background-color:#2e2e2e!important
+}
+
+/* header style */
+
+.header{
+    /* background-image: url('../images/headerback.jpg'); */
+    height: 767px!important;
+    background: #2e2e2e;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: #343a40(244, 244, 244, 0.79)!important
+   }
+.container{
+    padding-top: 5%;
+    max-width: 1250px!important
+}
+   /* responsive content (calendar) */
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+ 
+  }
+  
+  /* Clear floats after the columns */
+  .calendar:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
